@@ -185,10 +185,21 @@ const positionArray = [];
 function checkAlphabetPosition (array) {
   for (let i=0; i< array.length; i++){
     switch(array[i]){
-      case array[i]: 
-      positionArray.push(alphabet.indexOf(array[i]) + 1);    
+      case 'g':
+      positionArray.push(alphabet.indexOf('g') + 1);    
       break;
-      
+      case 'n':
+      positionArray.push(alphabet.indexOf('n') + 1);    
+      break;
+      case 'u':
+      positionArray.push(alphabet.indexOf('u') + 1);    
+      break;
+      case 'z':
+      positionArray.push(alphabet.indexOf('z') + 1);    
+      break;
+      case 'd':
+      positionArray.push(alphabet.indexOf('d') + 1);    
+      break;
     }
   }
 }
